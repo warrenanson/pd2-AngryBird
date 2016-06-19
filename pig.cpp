@@ -5,7 +5,7 @@
 Pig::Pig(float x, float y, float radius, QTimer *timer, QPixmap pixmap, b2World *world, QGraphicsScene *scene):GameItem(world)
 {
     dead = false;
-    life = 10;
+    life = 2500;
 
     // Set pixmap
     g_pixmap.setPixmap(pixmap);
