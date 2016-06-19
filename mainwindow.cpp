@@ -42,6 +42,7 @@ void MainWindow::showEvent(QShowEvent *)
     // Timer
     connect(&timer,SIGNAL(timeout()),this,SLOT(tick()));
     connect(this,SIGNAL(quitGame()),this,SLOT(QUITSLOT()));
+    connect(&timer,SIGNAL(timeout()),this,SLOT(deleteitem()));
     timer.start(100/6);
 }
 
