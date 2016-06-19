@@ -3,7 +3,7 @@
 Barrier::Barrier(float x, float y, float w, float h, QTimer *timer, QPixmap pixmap, b2World *world, QGraphicsScene *scene):GameItem(world)
 {
     dead = false;
-    life = 5;
+    life = 2000;
 
     g_pixmap.setPixmap(pixmap);
     g_pixmap.setTransformOriginPoint(g_pixmap.boundingRect().width()/2,g_pixmap.boundingRect().height()/2);
