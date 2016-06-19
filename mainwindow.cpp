@@ -125,7 +125,6 @@ void MainWindow::deleteitem()
     {
         if( BarrierList[i]!=NULL && BarrierList[i]->dead)
         {
-            qDebug()<<"BarrierList"<<i<<"bye";
             delete BarrierList[i];
             BarrierList[i]=NULL;
             score+=1000;
@@ -136,7 +135,6 @@ void MainWindow::deleteitem()
     {
         if(PigList[i]!=NULL && PigList[i]->dead)
         {
-            qDebug()<<"bye";
             delete PigList[i];
             pignum -= 1;
             PigList[i]=NULL;
