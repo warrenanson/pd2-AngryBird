@@ -52,11 +52,11 @@ public:
         graphicsView->setGeometry(QRect(0, 0, 961, 541));
         score = new QLabel(centralWidget);
         score->setObjectName(QStringLiteral("score"));
-        score->setGeometry(QRect(630, 20, 181, 41));
+        score->setGeometry(QRect(610, 20, 181, 41));
         score->setStyleSheet(QStringLiteral("font: 75 italic 30pt \"Fixedsys\";"));
         scorenum = new QLabel(centralWidget);
         scorenum->setObjectName(QStringLiteral("scorenum"));
-        scorenum->setGeometry(QRect(830, 30, 121, 31));
+        scorenum->setGeometry(QRect(790, 30, 221, 31));
         scorenum->setStyleSheet(QStringLiteral("font: 75 italic 30pt \"Fixedsys\";"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));

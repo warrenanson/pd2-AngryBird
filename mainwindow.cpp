@@ -128,7 +128,7 @@ void MainWindow::deleteitem()
             qDebug()<<"BarrierList"<<i<<"bye";
             delete BarrierList[i];
             BarrierList[i]=NULL;
-            score+=50000;
+            score+=1000;
             ui->scorenum->setText(QString::number(score));
         }
     }
@@ -328,6 +328,7 @@ void MainWindow::on_pushButton_clicked()
     count = 1;
     pignum = 5;
     score = 0;
+    ui->scorenum->setText(QString::number(score));
 
     int i;
     for(i=0;i<BarrierList.size();i++)
